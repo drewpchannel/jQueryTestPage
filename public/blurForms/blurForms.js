@@ -1,4 +1,6 @@
-$('.formsContainer').blur(function () {
+$('input').width(200).height(30)
+
+$('input').blur(function () {
   console.log('blur triggered')
 })
 
